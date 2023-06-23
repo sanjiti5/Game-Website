@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-repeat: no-repeat;
+    width: fit-content;
+    background-color: bisque;
+}
+
+h1{
+    position: relative;
+    animation: mymove 3s infinite ;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes mymove {
+    from{
+        left:0px;
+
+    }
+    to{
+        left:700px;
+    }
+    
+}
+/* .gameContainer{
+    background-image: url(housee.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width: 100%;
+    height: 100vh;
+} */
+.src{
+    width: 140%;
+    height: 99vh;
+    opacity: 0.71;
+}.dino{
+    
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    bottom:140px;
+    left: 460px;
+}
+.dragon{
+    width: 300px;
+    height: 350px;
+    
+    position: absolute;
+    bottom: 5px;
+    left: 60vw;
+}
+.question{
+    position: absolute;
+    top: 480px;
+    left: 65px;
+    width: 10%;
+}
+.cloud{
+    
+    position: absolute;
+    bottom:300px;
+    left: 570px;
+    width: 38%;
+    height: 40vh;
+    /* background-color: aliceblue; */
+    
+}
+h5{
+    position: absolute;
+    bottom:296px;
+    left: 656px;
+ color: rgb(0, 1, 3);
+    height: 35vh;
+    font-weight: bolder;
+   /* Arial Narrow', Arial, sans-serif */
+    /* font-style: italic; */
+    font-size: 25px;
+    
+}
+.btn1{
+    position: absolute;
+    top: 495px;
+    left: 270px;
+    font-size: 24px;
+    border: 3px;
+    padding: 14px;
+    box-sizing: content-box;
+    border-color: rgb(12, 4, 16);
+    background-color:  rgb(205, 94, 94);
+    border-radius: 7px;
+    width: 10%; 
+    /* margin: 0 0 0 12px; */
+}
+.btn1:active{
+    background-color: rgb(231, 35, 48);
+}
+.btn2{
+    position: absolute;
+    top: 490px;
+    left: 540px;
+    font-size: 22px;
+    padding: 31px;
+    border: 3px;
+    border-color: rgb(29, 8, 31);
+    background-color:  rgb(205, 94, 94);
+    border-radius: 7px;
+    width: 10%; 
+
+}
+.btn2:active{
+    background-color: green;
+}
+.mark{
+    position: absolute;
+    top: 467px;
+    left: 624px;
+    height: 10hv;
+    width: 20%;
+}
+.btn3{
+    position: absolute;
+    font-size: 20px;
+    left: 1020px;
+    top: 490px;
+    color: rgb(223, 235, 238);
+    background-color: rgb(240, 125, 125);
+    padding: 15px 15px;
+}
+ .btn3 a{text-decoration: none;
+    color:white ;
+}
+/*
+const btn1 = document.getElementById('btn1');
+
+let index = 0;
+
+const colors = ['salmon', 'green', 'blue', 'purple'];
+
+btn.addEventListener('click', function onClick() {
+  btn1.style.backgroundColor = colors[index];
+  btn1.style.color = 'white';
+
+  index = index >= colors.length - 1 ? 0 : index + 1;
+}); */
